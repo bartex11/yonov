@@ -37,7 +37,7 @@ export default function App() {
       <Header data={allData} i18n={i18n} />
       <React.Suspense fallback={<Loader />}>
         <main>
-          <div className='container'>
+
           <Switch>
             <Route
               path="/home"
@@ -52,8 +52,7 @@ export default function App() {
               <Redirect to="/home" />
             </Route>
           </Switch>
-          </div>
-          
+ 
         </main>
         
       </React.Suspense>

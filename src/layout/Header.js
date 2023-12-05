@@ -40,7 +40,7 @@ export default function Header({ data, i18n }) {
 
             
               {menuItems.map((item) => (
-                <li class="nav-item" key={item.title}>
+                <li className="nav-item" key={item.uri}>
                   <NavLink key={item.uri} to={item.uri} className="nav-link" activeClassName="active">
                     {item.title}
                   </NavLink>

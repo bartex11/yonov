@@ -6,7 +6,7 @@ export default function Footer({ data }) {
   return (
     <footer className="footer navbar-fixed-bottom">
       <div className="container">
-        ©Yonov
+        © 2012-{(new Date().getFullYear())} HNO-Praxis Yonov
       </div>
     </footer>
   );
