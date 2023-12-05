@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkyonov=self.webpackChunkyonov||[]).push([[827],{827:(e,a,s)=>{s.r(a),s.d(a,{default:()=>r});s(791);var n=s(184);function r(e){let{data:a}=e;return(0,n.jsx)("div",{children:(0,n.jsx)("h1",{className:"page-title",children:"hier praxis"})})}}}]);
+//# sourceMappingURL=827.4c1ff59e.chunk.js.map
