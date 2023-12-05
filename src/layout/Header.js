@@ -1,5 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 import SwitchLang from './SwitchLang'
 
@@ -29,32 +32,29 @@ export default function Header({ data, i18n }) {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-light">
-        <div className="container">
-          <NavLink className="navbar-brand" to="/home">HNO-Praxis Yonov </NavLink>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <Navbar expand="lg" className="bg-body-tertiary">
 
-            
+        <Container>
+          <Navbar.Brand href="/home">HNO-Praxis Yonov </Navbar.Brand>
+
+          <Navbar.Toggle aria-controls="navbarSupportedContent" />
+
+         
+          <Navbar.Collapse id="navbarSupportedContent">
+            <Nav className="me-auto">
+
               {menuItems.map((item) => (
-                <li className="nav-item" key={item.uri}>
-                  <NavLink key={item.uri} to={item.uri} className="nav-link" activeClassName="active">
-                    {item.title}
-                  </NavLink>
-                </li>
-      
+                <NavLink key={item.uri} to={item.uri} className="nav-link" activeClassName="active">
+                  {item.title}
+                </NavLink>
               ))}
-  
-
  
-            </ul>
+            </Nav>
             <SwitchLang i18n={i18n} />
-          </div>
-        </div>
-      </nav>
+
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
 
     </header>
   );
