@@ -35,11 +35,11 @@ export default function Header({ data, i18n }) {
       <Navbar expand="lg" className="bg-body-tertiary">
 
         <Container>
-          <Navbar.Brand href="/home">HNO-Praxis Yonov </Navbar.Brand>
+          <NavLink className="navbar-brand" to="/home">HNO-Praxis Yonov</NavLink>
 
           <Navbar.Toggle aria-controls="navbarSupportedContent" />
 
-         
+        
           <Navbar.Collapse id="navbarSupportedContent">
             <Nav className="me-auto">
 

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import logoDe from '../images/de.png'
+import logoTr from '../images/tr.png'
 
 export default function SwitchLang({ i18n }) {
   const [currentLang, setCurrentLang] = useState();
@@ -13,7 +15,7 @@ export default function SwitchLang({ i18n }) {
   };
 
   const locales = {
-    de: { title: "Deutsch", class: "de",  src: "images/de.png"},
+    de: { title: "Deutsch", class: "de",  src: "{logoDe}"},
     tr: { title: "Türkisch", class: "tr", src: "images/tr.png" }
   
   };
@@ -26,7 +28,7 @@ export default function SwitchLang({ i18n }) {
         className= {'switch-languages__item ' + 'switch-languages__item--' + locales[locale].class} key= {locales[locale].class}
         type="submit" onClick={() => i18n.changeLanguage(locale)}>
           <img
-            src={locales[locale].src}
+            src={ locales[locale].class == 'de' ? logoDe  : logoTr}
             alt={locales[locale].title}
             height="32"
     

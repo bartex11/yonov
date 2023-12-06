@@ -1,12 +1,15 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
 export default function Praxis({ data }) {
   return (
     <Container>
+      <Helmet>
+        <title>{data.praxisTitle}</title>
+      </Helmet>
       <Row>
         <Col xs={12}>
           <h1 className="page-title">

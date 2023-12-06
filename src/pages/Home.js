@@ -1,12 +1,21 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
+import yonov from '../images/home_dr_yonov.png'
+
+
 export default function Home({ data }) {
+  
   return (
+
     <Container>
+      <Helmet>
+        <title>HNO-Praxis Yonov</title>
+      </Helmet>
       <Row>
         <Col xs={12}>
           <h1 className="page-title">
@@ -23,7 +32,7 @@ export default function Home({ data }) {
         </Col>
   
         <Col xs={12} md={4}>
-          <Image src="./images/home_dr_yonov.png" fluid />
+          <Image src={yonov} fluid />
         </Col>
         
       </Row>
