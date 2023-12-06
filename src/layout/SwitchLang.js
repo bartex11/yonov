@@ -28,7 +28,7 @@ export default function SwitchLang({ i18n }) {
     
     <div className="switch-languages">
       <Helmet>
-        <html lang={currentLang}/>
+        <html lang={i18n.language}/>
         <meta charset="UTF-8"></meta>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
@@ -36,7 +36,7 @@ export default function SwitchLang({ i18n }) {
       </Helmet>
     
       {Object.keys(locales).map((locale) => (
-        <span style={{ fontWeight: currentLang === locale ? 'bold' : 'normal' }} 
+        <span style={{ fontWeight: i18n.language === locale ? 'bold' : 'normal' }} 
         className= {'switch-languages__item ' + 'switch-languages__item--' + locales[locale].class} key= {locales[locale].class}
         type="submit" onClick={() => i18n.changeLanguage(locale)}>
           <img
