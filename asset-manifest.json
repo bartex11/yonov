@@ -1,21 +1,26 @@
 {
   "files": {
     "main.css": "/yonov/static/css/main.a128fe43.css",
-    "main.js": "/yonov/static/js/main.c9887f22.js",
-    "static/js/337.bd3d4473.chunk.js": "/yonov/static/js/337.bd3d4473.chunk.js",
-    "static/js/827.deafed19.chunk.js": "/yonov/static/js/827.deafed19.chunk.js",
-    "static/js/9.d6754b1a.chunk.js": "/yonov/static/js/9.d6754b1a.chunk.js",
+    "main.js": "/yonov/static/js/main.f384d4fb.js",
+    "static/js/337.0bfbf57a.chunk.js": "/yonov/static/js/337.0bfbf57a.chunk.js",
+    "static/js/827.f5889532.chunk.js": "/yonov/static/js/827.f5889532.chunk.js",
+    "static/js/706.1e5f6fb1.chunk.js": "/yonov/static/js/706.1e5f6fb1.chunk.js",
+    "static/js/107.c3ea3c92.chunk.js": "/yonov/static/js/107.c3ea3c92.chunk.js",
+    "static/js/270.0007da27.chunk.js": "/yonov/static/js/270.0007da27.chunk.js",
     "static/media/home_dr_yonov.png": "/yonov/static/media/home_dr_yonov.0b2fa3834652e9f17784.png",
     "static/media/de.png": "/yonov/static/media/de.b632dfe0bffd7a3ad4f0.png",
+    "static/media/favicon.ico": "/yonov/static/media/favicon.7d607b967d6a7cac0a69.ico",
     "index.html": "/yonov/index.html",
     "main.a128fe43.css.map": "/yonov/static/css/main.a128fe43.css.map",
-    "main.c9887f22.js.map": "/yonov/static/js/main.c9887f22.js.map",
-    "337.bd3d4473.chunk.js.map": "/yonov/static/js/337.bd3d4473.chunk.js.map",
-    "827.deafed19.chunk.js.map": "/yonov/static/js/827.deafed19.chunk.js.map",
-    "9.d6754b1a.chunk.js.map": "/yonov/static/js/9.d6754b1a.chunk.js.map"
+    "main.f384d4fb.js.map": "/yonov/static/js/main.f384d4fb.js.map",
+    "337.0bfbf57a.chunk.js.map": "/yonov/static/js/337.0bfbf57a.chunk.js.map",
+    "827.f5889532.chunk.js.map": "/yonov/static/js/827.f5889532.chunk.js.map",
+    "706.1e5f6fb1.chunk.js.map": "/yonov/static/js/706.1e5f6fb1.chunk.js.map",
+    "107.c3ea3c92.chunk.js.map": "/yonov/static/js/107.c3ea3c92.chunk.js.map",
+    "270.0007da27.chunk.js.map": "/yonov/static/js/270.0007da27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a128fe43.css",
-    "static/js/main.c9887f22.js"
+    "static/js/main.f384d4fb.js"
   ]
 }
