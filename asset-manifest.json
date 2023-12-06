@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/yonov/static/css/main.a128fe43.css",
-    "main.js": "/yonov/static/js/main.e69bb1f9.js",
-    "static/js/187.889f031a.chunk.js": "/yonov/static/js/187.889f031a.chunk.js",
-    "static/js/827.83a1027f.chunk.js": "/yonov/static/js/827.83a1027f.chunk.js",
+    "main.js": "/yonov/static/js/main.c9887f22.js",
+    "static/js/337.bd3d4473.chunk.js": "/yonov/static/js/337.bd3d4473.chunk.js",
+    "static/js/827.deafed19.chunk.js": "/yonov/static/js/827.deafed19.chunk.js",
+    "static/js/9.d6754b1a.chunk.js": "/yonov/static/js/9.d6754b1a.chunk.js",
+    "static/media/home_dr_yonov.png": "/yonov/static/media/home_dr_yonov.0b2fa3834652e9f17784.png",
+    "static/media/de.png": "/yonov/static/media/de.b632dfe0bffd7a3ad4f0.png",
     "index.html": "/yonov/index.html",
     "main.a128fe43.css.map": "/yonov/static/css/main.a128fe43.css.map",
-    "main.e69bb1f9.js.map": "/yonov/static/js/main.e69bb1f9.js.map",
-    "187.889f031a.chunk.js.map": "/yonov/static/js/187.889f031a.chunk.js.map",
-    "827.83a1027f.chunk.js.map": "/yonov/static/js/827.83a1027f.chunk.js.map"
+    "main.c9887f22.js.map": "/yonov/static/js/main.c9887f22.js.map",
+    "337.bd3d4473.chunk.js.map": "/yonov/static/js/337.bd3d4473.chunk.js.map",
+    "827.deafed19.chunk.js.map": "/yonov/static/js/827.deafed19.chunk.js.map",
+    "9.d6754b1a.chunk.js.map": "/yonov/static/js/9.d6754b1a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a128fe43.css",
-    "static/js/main.e69bb1f9.js"
+    "static/js/main.c9887f22.js"
   ]
 }
