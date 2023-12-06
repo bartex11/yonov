@@ -18,6 +18,9 @@ import Footer from './layout/Footer';
 // Pages
 const Home = React.lazy(() => import('./pages/Home'));
 const Praxis = React.lazy(() => import('./pages/Praxis'));
+const Termine = React.lazy(() => import('./pages/Termine'));
+const Galerie = React.lazy(() => import('./pages/Galerie'));
+const Kontakt = React.lazy(() => import('./pages/Kontakt'));
 
 export default function App() {
   const { i18n } = useTranslation();
@@ -46,6 +49,18 @@ export default function App() {
             <Route
               path="/praxis"
               render={(props) => <Praxis {...props} data={allData} />}
+            />
+            <Route
+              path="/termine"
+              render={(props) => <Termine {...props} data={allData} />}
+            />
+            <Route
+              path="/galerie"
+              render={(props) => <Galerie {...props} data={allData} />}
+            />
+            <Route
+              path="/kontakt"
+              render={(props) => <Kontakt {...props} data={allData} />}
             />
             {/* Redirect */}
             <Route exact path="/">

@@ -22,11 +22,11 @@ export default function Header({ data, i18n }) {
     },
     {
       title: data.menu4,
-      uri: '/gallery',
+      uri: '/galerie',
     },
     {
       title: data.menu5,
-      uri: '/contacts',
+      uri: '/kontakt',
     },
   ];
 

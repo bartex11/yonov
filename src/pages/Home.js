@@ -15,7 +15,9 @@ export default function Home({ data }) {
     <Container>
       <Helmet>
         <title>HNO-Praxis Yonov</title>
+        <meta name="description" content="Praxis für Hals-, Nasen-, Ohrenheilkunde Stanimir Yonov in Voerde" />
       </Helmet>
+
       <Row>
         <Col xs={12}>
           <h1 className="page-title">
