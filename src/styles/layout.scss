@@ -3,3 +3,63 @@
     flex-direction: column;
     min-height: 100vh;
 }
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.loader {
+   text-align: center;
+   margin-top: auto;
+
+   svg {
+    margin-top: -2rem;
+   }
+}
+
+.list-hours {
+    position: relative;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+
+    @include media-breakpoint-up(lg) {
+        padding: 3rem;
+    }
+
+    &::before {
+        border-radius: 0.5rem;
+        content: '';
+        position: absolute;
+        top: -0.5rem;
+        bottom: -0.5rem;
+        left: -0.5rem;
+        right: -0.5rem;
+        border: 0.25rem solid $base-color;
+        z-index: -1;
+    }
+
+    &__day {
+        width: 100%;
+        @include media-breakpoint-up(lg) {
+            width: auto;
+        }
+    }
+
+    &-item {
+        border-bottom: 1px solid $base-color;
+        padding-bottom: 0.25rem;
+        margin-bottom: 1rem;
+        font-style: italic;
+        flex-wrap: wrap;
+    }
+
+    .ml-auto {
+        margin-left: 0;
+
+        @include media-breakpoint-up(lg) {
+            margin-left: auto;
+        }
+    }
+}
+

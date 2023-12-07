@@ -20,7 +20,7 @@ export default function Home({ data }) {
 
       <Row>
         <Col xs={12}>
-          <h1 className="page-title">
+          <h1 className="page-title mb-4">
             {data.homeTitle}
           </h1>
         </Col>
@@ -31,6 +31,16 @@ export default function Home({ data }) {
             <p>{data.homeParagraph2}</p>
             <p>{data.homeParagraph3}</p>
             <p>{data.homeParagraph4}</p>
+
+            <div className='mt-5 fw-bold'>
+              {data.you
+                ? <p className='mb-0'>{data.you}</p>
+                : ''
+              }
+              <p>{data.team}</p>
+            </div>
+            
+
         </Col>
   
         <Col xs={12} md={4}>
